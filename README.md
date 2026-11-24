@@ -412,9 +412,13 @@ Depending on the contents, such a backup may expose personal information, employ
 
 ### Figure 9 – Discovery of the historical SQL database backup in the exposed directory
 
-Evidence PDF page 38.
+### Recovered Staff Data
 
-![Figure 9: Exposed SQL backup](images/figure-09-exposed-sql-backup.png)
+![Recovered Staff Data](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/staff%20recovered%20data.png)
+
+### Recovered Shareholder Data
+
+![Recovered Shareholder Data](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/Shareholders%20recovered.png)
 
 ---
 
@@ -457,17 +461,11 @@ Unauthorised access to employee records can enable identity theft, targeted phis
 
 ### Figure 10 – Database analysis identifying the employee staff table and sensitive fields
 
-Evidence PDF pages 39–44.
-
-![Figure 10: Staff table structure](images/figure-10-staff-table-structure.png)
+![Staff Database Table Structure](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/staff%20table.png)
 
 ### Figure 11 – Evidence of employee records and salary information stored in the exposed database backup
 
-Evidence PDF pages 39–44.
-
-**Redaction required:** Redact employee names, national identification numbers, telephone numbers, email addresses and exact salary values before sharing the report beyond the authorised assessment environment.
-
-![Figure 11: Staff records](images/figure-11-staff-records.png)
+![Recovered Staff Records](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/staff%20recovered%20data.png)
 
 ---
 
@@ -505,98 +503,15 @@ Shareholder information may be commercially sensitive. Unauthorised disclosure c
 
 ### Figure 12 – Identification of the shareholder information table in the recovered database
 
-Evidence PDF pages 39–44.
-
-![Figure 12: Shareholder table](images/figure-12-shareholder-table.png)
+![Shareholder Database Table Structure](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/shareholder%20table.png)
 
 ### Figure 13 – Evidence of shareholder ownership information stored in the exposed database backup
 
-Evidence PDF pages 39–44.
-
-**Redaction required:** Redact names and exact ownership details where the report will be distributed beyond the authorised assessment environment.
-
-![Figure 13: Shareholder records](images/figure-13-shareholder-records.png)
+![Recovered Shareholder Records](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/Shareholders%20recovered.png)
 
 ---
 
-## 4.4 Additional Security Observations
-
-### Finding F07: Missing recommended HTTP security headers
-
-**Severity: MEDIUM**
-
-**Description**
-
-The HTTP security-header assessment identified several recommended security headers that were not present in the responses examined.
-
-The assessment evidence recorded a security-header score of 11/100, with one control present and eight controls missing.
-
-The headers reviewed included:
-
-- Strict-Transport-Security (HSTS)
-- Content-Security-Policy (CSP)
-- X-Frame-Options
-- X-Content-Type-Options
-- Referrer-Policy
-- Permissions-Policy
-- Cross-Origin-Opener-Policy (COOP)
-- X-XSS-Protection (legacy header)
-
-The absence of these headers does not independently prove that an exploitable vulnerability exists. However, it indicates that recommended browser-side security protections may not be fully configured.
-
-**Security impact**
-
-Depending on the application's functionality and other controls, missing security headers may increase exposure to certain browser-based attacks, including clickjacking, content injection and unintended information disclosure.
-
-**Recommendation**
-
-- Configure an appropriate Content-Security-Policy.
-- Enable HTTP Strict Transport Security after confirming HTTPS is correctly configured.
-- Configure X-Content-Type-Options: nosniff.
-- Set an appropriate Referrer-Policy.
-- Configure Permissions-Policy according to application requirements.
-- Use an appropriate frame-ancestors directive or X-Frame-Options.
-- Configure Cross-Origin-Opener-Policy where appropriate.
-- Do not rely on the deprecated X-XSS-Protection header as a replacement for modern controls.
-
-### Figure 14 – HTTP security-header assessment identifying missing recommended browser security controls
-
-Evidence PDF pages 45–46.
-
-![Figure 14: HTTP security headers](images/figure-14-security-headers.png)
-
----
-
-### Finding F08: Externally exposed network services
-
-**Severity: MEDIUM – Requires further validation**
-
-**Description**
-
-The reconnaissance and service-discovery phase identified multiple externally visible services on the target infrastructure.
-
-The observed services included web, DNS, FTP and mail-related services, together with additional ports identified during scanning.
-
-The presence of these services is not, by itself, proof of a security vulnerability. Their risk depends on whether they are necessary, securely configured, patched and appropriately restricted.
-
-**Recommendation**
-
-- Review all externally accessible services.
-- Disable services that are not required.
-- Restrict administrative and management interfaces.
-- Apply current security patches.
-- Enforce secure protocols and authentication.
-- Restrict access to services using firewall rules and network segmentation.
-- Conduct configuration reviews for exposed FTP and mail services.
-- Monitor service access and suspicious connection attempts.
-
-**Evidence**
-
-Use the network scanning screenshot already inserted as Figure 2. Avoid duplicating the same screenshot unless a separate image clearly demonstrates the additional exposed services.
-
----
-
-# 5. Staff Login Page Assessment
+# 4. Staff Login Page Assessment
 
 The staff login page at:
 
@@ -617,12 +532,6 @@ The staff login page should nevertheless be assessed for:
 - Appropriate error messages.
 - Role-based access controls.
 - Monitoring of failed and successful login attempts.
-
-### Optional Figure 15 – Staff portal login interface identified during application assessment
-
-Insert a screenshot of the staff login page only if it is present in your original evidence.
-
-![Figure 15: Staff login page](images/figure-15-staff-login.png)
 
 ---
 
