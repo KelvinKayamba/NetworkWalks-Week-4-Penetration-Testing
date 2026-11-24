@@ -139,9 +139,31 @@ The presence of an exposed service does not automatically establish a vulnerabil
 
 ### Figure 1 – Initial reconnaissance and domain information gathering
 
-Evidence PDF pages 1–6.
+## 1. Reconnaissance and Information Gathering
 
-![Figure 1: Initial reconnaissance](images/figure-01-reconnaissance.png)
+### Figure 1: WHOIS Lookup
+
+![WHOIS Lookup Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/1%20WHOIS.png)
+
+### Figure 2: WhatWeb Technology Detection
+
+![WhatWeb Technology Detection Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/2%20WHATWEB.png)
+
+### Figure 3: NSLOOKUP DNS Enumeration
+
+![NSLOOKUP DNS Enumeration Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/3%20NSLOOKUP.png)
+
+### Figure 4: CURL HTTP Response Analysis
+
+![CURL HTTP Response Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/4%20CURL%20I.png)
+
+### Figure 5: WAFW00F Detection
+
+![WAFW00F Detection Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/5%20WAFW00F.png)
+
+### Figure 6: DNSRecon DNS Enumeration
+
+![DNSRecon Enumeration Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/6%20DNSRECON%201.png)
 
 ### Figure 2 – Network service discovery and web technology identification
 
