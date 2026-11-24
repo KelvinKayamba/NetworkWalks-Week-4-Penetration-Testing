@@ -342,21 +342,35 @@ Weak document passwords can allow an individual who obtains a protected file to 
 
 ### Figure 6 – Extraction of password hashes from the retrieved PDF documents
 
-Evidence PDF pages 20–32.
+### PDF Hash Extraction – Screenshot 1
 
-![Figure 6: PDF hash extraction](images/figure-06-pdf-hash-extraction.png)
+![PDF Hash Extraction 1](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p1%20hash.png)
+
+### PDF Hash Extraction – Screenshot 2
+
+![PDF Hash Extraction 2](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p2%20hash.png)
+
+### PDF Hash Extraction – Screenshot 3
+
+![PDF Hash Extraction 3](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p3%20hash.png)
 
 ### Figure 7 – Successful recovery of PDF document passwords during testing
 
-Evidence PDF pages 20–32.
+### Password Recovery – Screenshot 1
 
-![Figure 7: PDF password recovery](images/figure-07-password-recovery.png)
+![PDF Password Recovery Result 1](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p1%20result.png)
+
+### Password Recovery – Screenshot 2
+
+![PDF Password Recovery Result 2](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p2%20result.png)
+
+### Password Recovery – Screenshot 3
+
+![PDF Password Recovery Result 3](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p3result.jpeg)
 
 ### Figure 8 – Verification of successful access to a protected patient report
 
-Evidence PDF pages 33–37.
-
-![Figure 8: Successful PDF access](images/figure-08-successful-pdf-access.png)
+![Final Assessment Result 3](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p3%20final%20result.png)
 
 ---
 
