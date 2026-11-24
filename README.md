@@ -291,9 +291,17 @@ Patient laboratory reports contain sensitive medical information. Unauthorised d
 
 ### Figure 5 – Retrieval of the three patient laboratory report PDFs
 
-Evidence PDF pages 33–37.
+### Patient report 1
 
-![Figure 5: Retrieved patient reports](images/figure-05-retrieved-patient-reports.png)
+![Final Assessment Result 1](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p1%20final%20result.png)
+
+### Patient report 2
+
+![Final Assessment Result 2](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p2%20final%20result.png)
+
+### Patient report 3
+
+![Final Assessment Result 3](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/p3%20final%20result.png)
 
 ---
 
