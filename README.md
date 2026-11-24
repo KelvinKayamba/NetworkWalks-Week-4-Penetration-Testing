@@ -141,35 +141,35 @@ The presence of an exposed service does not automatically establish a vulnerabil
 
 ## 1. Reconnaissance and Information Gathering
 
-### Figure 1: WHOIS Lookup
+### WHOIS Lookup
 
 ![WHOIS Lookup Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/1%20WHOIS.png)
 
-### Figure 2: WhatWeb Technology Detection
+### WhatWeb Technology Detection
 
 ![WhatWeb Technology Detection Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/2%20WHATWEB.png)
 
-### Figure 3: NSLOOKUP DNS Enumeration
+### NSLOOKUP DNS Enumeration
 
 ![NSLOOKUP DNS Enumeration Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/3%20NSLOOKUP.png)
 
-### Figure 4: CURL HTTP Response Analysis
+### CURL HTTP Response Analysis
 
 ![CURL HTTP Response Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/4%20CURL%20I.png)
 
-### Figure 5: WAFW00F Detection
+### WAFW00F Detection
 
 ![WAFW00F Detection Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/5%20WAFW00F.png)
 
-### Figure 6: DNSRecon DNS Enumeration
+### DNSRecon DNS Enumeration
 
 ![DNSRecon Enumeration Evidence](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/6%20DNSRECON%201.png)
 
 ### Figure 2 – Network service discovery and web technology identification
 
-Evidence PDF pages 7–16.
+### Nmap Network Scan Results
 
-![Figure 2: Network and technology discovery](images/figure-02-network-discovery.png)
+![Nmap Network Scan Results](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/nmap%20scan%20result.png)
 
 ## 3.2 Authentication and application testing
 
