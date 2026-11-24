@@ -243,15 +243,11 @@ An attacker able to reproduce the weakness could potentially gain access to pati
 
 ### Figure 3 – Patient portal authentication request intercepted using Burp Suite
 
-Evidence PDF pages 17–19.
-
-![Figure 3: Patient login request](images/figure-03-patient-login-request.png)
+![Burp Suite Request](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/2%20burp%20suite%20request.png)
 
 ### Figure 4 – Successful access to the patient portal during authorised testing
 
-Evidence PDF pages 17–19.
-
-![Figure 4: Successful patient portal access](images/figure-04-patient-portal-access.png)
+![Patient Laboratory Reports](https://raw.githubusercontent.com/KelvinKayamba/NetworkWalks-Week-4-Penetration-Testing/main/4%20%20patienta%20Lap%20reports.png)
 
 ---
 
